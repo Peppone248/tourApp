@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Settings.MainActivity">
+
+    <Button
+        android:id="@+id/openImgBtn"
+        style="@style/Button.Outlined"
+        android:layout_width="328dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="470dp"
+        android:layout_weight="1"
+        android:elevation="5dp"
+        android:text="@string/allView"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/openUploadBtn"
+        style="@style/Button.Outlined"
+        android:layout_width="328dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:elevation="5dp"
+        android:text="@string/addImage"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_alignBottom="@+id/openUploadBtn"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="155dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/bari_2"
+        tools:srcCompat="@drawable/bari_2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="290dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingLeft="10dp"
+        android:paddingTop="11dp"
+        android:text="@string/itemTitle"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

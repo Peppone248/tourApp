@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "289707651098",
+    "firebase_url": "https://tourapp-android-48c5b.firebaseio.com",
+    "project_id": "tourapp-android-48c5b",
+    "storage_bucket": "tourapp-android-48c5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289707651098:android:0caf66900c5c5b4c",
+        "android_client_info": {
+          "package_name": "com.example.listview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289707651098-fc3hvno2jo782mafvpqn87ecodl2kn4s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.listview",
+            "certificate_hash": "e99a094ddb72a64ab84b29cf9f648f1d2a49b604"
+          }
+        },
+        {
+          "client_id": "289707651098-22cp3h03ql12dn79jsdu10c3l0uj4mfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxjzxMnCMRapbvu23PC4h83y6K-7SRo5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289707651098-22cp3h03ql12dn79jsdu10c3l0uj4mfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_Settings.MainActivity">
+
+    <Button
+        android:id="@+id/loginBID"
+        style="@style/Button.Outlined"
+        android:layout_width="328dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:elevation="5dp"
+        android:text="@string/Login"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEtID"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/guestButton"
+        style="@style/Button.Outlined"
+        android:layout_width="328dp"
+        android:layout_height="51dp"
+        android:elevation="5dp"
+        android:text="@string/guestMode"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <CheckBox
+        android:id="@+id/rememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rememberMe"
+        app:buttonTint="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+
+    <CheckBox
+        android:id="@+id/chekShowPass"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        app:buttonTint="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/loginBID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/passwordEtID"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <EditText
+        android:id="@+id/emailEtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/Email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textCursorDrawable="@null"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
+
+    <EditText
+        android:id="@+id/passwordEtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="@string/Password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@null"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.422" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="146dp"
+        android:layout_height="118dp"
+        android:clickable="false"
+        app:layout_constraintBottom_toTopOf="@+id/emailEtID"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextDetail"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/splash_image" />
+
+    <TextView
+        android:id="@+id/TextDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="cursive"
+        android:text="@string/Welcome"
+        android:textColor="#000000"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <TextView
+        android:id="@+id/nonRegistrato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/NonRegistrato"
+        android:text="@string/NonRegistrato"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851" />
+
+    <TextView
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Registrati"
+        android:textColor="#00574B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851" />
+
+    <TextView
+        android:id="@+id/passDimenticata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/PassDimenticata"
+        android:text="@string/PassDimenticata"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <TextView
+        android:id="@+id/changePass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ChangePass"
+        android:textColor="#00574B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918"
+        tools:text="Reset" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

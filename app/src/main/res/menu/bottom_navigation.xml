@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- I tre pulsanti della BottomNavigationBar-->
+    <item
+        android:id="@+id/nav_explore"
+        android:icon="@drawable/ic_explore_black_24dp"
+        android:title="@string/Esplora" />
+
+    <item
+        android:id="@+id/nav_diary"
+        android:icon="@drawable/ic_photo_black_24dp"
+        android:title="@string/IMieiDiari"/>
+
+    <item
+        android:id="@+id/nav_coupon"
+        android:icon="@drawable/ic_card_giftcard_black_24dp"
+        android:title="@string/Coupon"/>
+
+</menu>

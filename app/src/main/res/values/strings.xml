@@ -1,0 +1,195 @@
+<resources>
+    <plurals name="addCouponMsg">
+        <item quantity="zero">Zero coupons have been added!</item>
+        <item quantity="one">One coupon has been successfully added!</item>
+        <item quantity="two">Two coupons have been successfully added!</item>
+        <item quantity="few">Few coupons have been successfully added!</item>
+    </plurals>
+    <plurals name="noCoupon">
+        <item quantity="one">One coupon selectable</item>
+        <item quantity="two">Two coupons selectable</item>
+        <item quantity="few">Few coupons selectable</item>
+        <item quantity="other">Zero coupons selectable</item>
+    </plurals>
+
+    <!-- TRADUZIONI DIARIO -->
+    <string name="IMieiDiari">Diary</string>
+
+
+    <string name="app_name">Tour App</string>
+    <string name="google_map_api_key">AIzaSyBl1-0FKzbITGbU14zZOMQan-2W4vjfoc4</string>
+    <string name="Welcome">Welcome</string>
+    <string name="stepCounter">Steps</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Registrati">Sign in</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Registra">Sign Up</string>
+    <string name="Nome">First Name</string>
+    <string name="NomeCommerciante">Dealer Name</string>
+    <string name="Cognome">Last Name</string>
+    <string name="city">City</string>
+    <string name="ForgotPsw">Forgot password?</string>
+    <string name="DeleteAccount">Delete Account</string>
+    <string name="Wmessage">Welcome in your account area</string>
+    <string name="Address">Address</string>
+    <string name="ImDealer">I\'m a dealer</string>
+    <string name="Number">Phone Number</string>
+    <string name="Profilo">Profile</string>
+    <string name="Impostazioni">Settings</string>
+    <string name="Mappa">Map</string>
+    <string name="Esplora">Explore</string>
+    <string name="Coupon">Coupon</string>
+    <string name="NonRegistrato">Don\'t have an account yet?</string>
+    <string name="PassDimenticata">Forgot password?</string>
+    <string name="confPsw">Confirm Password</string>
+    <string name="myProfile">My profile</string>
+    <string name="regAccount">Account successfully registered</string>
+    <string name="uploadSucc">Upload successfully completed!</string>
+    <string name="delAccount">Account successfully deleted</string>
+    <string name="itemTitle">My Diary</string>
+    <string name="enterDetails">Enter Details</string>
+    <string name="nameImage">Name Image</string>
+    <string name="Description">Description</string>
+    <string name="chsImage">Choose image</string>
+    <string name="Upload">Upload</string>
+    <string name="Date">Date</string>
+    <string name="CouponDescription">Coupon Description</string>
+    <string name="allView">My Images</string>
+    <string name="addImage">Add new image</string>
+    <string name="checkMail">Check your email to reset the password</string>
+    <string name="resetDescription">To make the password reset, \n put the registration email here</string>
+    <string name="updateMail">Update Email</string>
+    <string name="updateName">Update Name</string>
+    <string name="updatePhone">Update Phone</string>
+    <string name="updateAddress">Update Address</string>
+    <string name="chgName">Change Name</string>
+    <string name="chgPhone">Change Phone Number</string>
+    <string name="chgAddress">Change Address</string>
+    <string name="inputHere">Enter new here</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_registration">Register to our app</string>
+    <string name="addCoupon">Add Coupon</string>
+    <string name="listCoupon">Coupon List</string>
+    <string name="appInfo">Info App</string>
+    <string name="noSensorFound">No Sensor Found</string>
+    <string name="guestMode">Guest Mode</string>
+    <string name="rememberMe">Remember Me</string>
+    <string name="createCoupon">Create coupon</string>
+    <string name="couponName">Coupon name</string>
+    <string name="couponCode">Coupon code</string>
+    <string name="chooseLng">Choose language:</string>
+    <string name="noCategory">Choose a category</string>
+    <string name="percentage">Discount percentage</string>
+    <string name="activatedCp">Coupon activation</string>
+    <string name="couponAlready">This coupon is on your list</string>
+    <string name="usedCoupon">Are you sure you want to use this Coupon? You can\'t use this anymore</string>
+    <string name="insertPercentage">Select the discount percentage</string>
+    <string name="selectOption">Choose option</string>
+    <string name="selectCategory">Select the category of your business</string>
+    <string name="newMailInput">Enter your new email</string>
+    <string name="deleteConfirm">Your account will be permanently deleted. Are you sure?</string>
+
+    <!-- TRADUZIONI BASIC WORDS -->
+    <string name="save">Save</string>
+    <string name="up">Updated</string>
+    <string name="cancel">Cancel</string>
+    <string name="open">Open</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="delete">Deleted</string>
+    <string name="remove">Remove</string>
+    <string name="generate">Generate</string>
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="selected">Selected</string>
+    <string name="category">Category</string>
+    <string name="Lingua">Language</string>
+    <string name="ChangeLang">Change language</string>
+    <string name="ChangePass">Reset</string>
+    <string name="sendEmail">Send</string>
+
+
+    <!-- TRADUZIONI ERROR MESSAGE -->
+    <string name="msgCouponAlertUser">Add a coupon to your list</string>
+    <string name="msgPermission">This application requires GPS to work properly, do you want to enable it?</string>
+    <string name="msgPermissionStorage">You have to grant permission to read storage!</string>
+    <string name="msgSelectedCpAlert">Your selected coupon is:</string>
+    <string name="msgGuestMode">Hello, to have access to all the features, proceed with registration.</string>
+    <string name="updateMailError">Unable to update email, try again.</string>
+    <string name="errorMsgRegistration">Something went wrong, please try again</string>
+    <string name="errorMsgCpName">The coupon name cannot exceed 15 characters</string>
+    <string name="errorMsgCpCode">The coupon code cannot exceed 10 characters</string>
+    <string name="errorMsgDifferentPsw">Passwords do not match</string>
+    <string name="errorMsgCpPercent">The discount percentage must be higher than 0%</string>
+    <string name="pswWeak">Password must contain at least one capital letter, one number and 4 characters long</string>
+    <string name="emailInvalid">This email is already in use</string>
+    <string name="errorMsgField">Please, compile the field</string>
+    <string name="errorMsgCpDescription">The coupon description cannot exceed 20 characters</string>
+    <string name="phoneNumbError">Phone number not valid</string>
+    <string name="noSelected">You haven\'t selected any file selected</string>
+    <string name="correctMail">Enter the correct email</string>
+    <string name="errorMsgDelAccount">Dismissal failed</string>
+    <string name="failLogin">Incorrect data. Please, try again</string>
+    <string name="nonConnesso">No internet connection detected</string>
+
+
+    <!-- TRADUZIONI TABITEM EXPLORE -->
+
+    <string name="Refresh">Refresh</string>
+    <string name="all">All</string>
+    <string name="hotel">Hotel</string>
+    <string name="bAndb">Bed and Breakfast</string>
+    <string name="pizza">Pizzeria</string>
+    <string name="risto">Restaurant</string>
+    <string name="iceCream">Ice-cream parlour</string>
+    <string name="church">Church</string>
+    <string name="shore">Shore</string>
+    <string name="museum">Museum</string>
+    <string name="fun">Fun</string>
+
+    <string name="disco">Dance Club</string>
+
+    <string name="about">About</string>
+
+    <!-- TRADUZIONI SETTINGS -->
+    <string name="Version">Version</string>
+    <string name="generals_header">Generals</string>
+    <string name="faq">FAQ</string>
+    <string name="faq_desc">Got any queries? We are happy to help!</string>
+    <string name="weAre">Team of 4 independent developers, who have created the android application as a college project.</string>
+    <string name="key_send_feedback">Send Feedback</string>
+    <string name="queries">If you got any suggestions, please send us an email!</string>
+    <string name="choose_email_client">Choose an email client</string>
+    <string name="app_settings">Application settings</string>
+    <string name="app_settings_desc">Manage notifications, permissions and other app settings</string>
+    <string name="question1">What can I do with this app?</string>
+
+
+    <!-- TRADUZIONI FAQ -->
+    <string name="question2">Who can use tourApp\'s services?</string>
+    <string name="question3">Is there something I should pay for?</string>
+    <string name="question4">What are "My Coupons"?</string>
+    <string name="answer1">With this app, you can find any type of business or cultural place present near your locations.
+                           Moreover you can record any moments of your travel with photos, saved in your personal diary.</string>
+    <string name="answer2">tourApp is attainable to anyone who wants to have a kind of tourist guide, so that they can discover
+                           and reach new places. Also anyone who has a business and wants to take advantage of the services of our app.</string>
+    <string name="answer3">No, the app is totally free, you can download it from the play store and there are no internal transactions.</string>
+    <string name="answer4">The "my coupons" section allows you to add coupons made available by the merchant to use in his business.</string>
+
+    <string-array name="category_names">
+        <item>@string/hotel</item>
+        <item>@string/bAndb</item>
+        <item>@string/pizza</item>
+        <item>@string/risto</item>
+        <item>@string/iceCream</item>
+        <item>@string/church</item>
+        <item>@string/shore</item>
+        <item>@string/museum</item>
+        <item>@string/fun</item>
+        <item>@string/disco</item>
+    </string-array>
+
+</resources>

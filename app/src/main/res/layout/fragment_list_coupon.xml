@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dealer.ListCouponFragment">
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+        android:orientation="vertical"
+    android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="430dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ticket" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginBottom="40dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="11dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/Coupon"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.5"
+        tools:ignore="MissingConstraints"
+        android:id="@+id/recyclerView">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
+
+</FrameLayout>

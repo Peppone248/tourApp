@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Menu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_white_24dp">
+
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:icon="@drawable/ic_baseline_perm_identity_24px"
+                android:title="@string/Profilo"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_baseline_settings_20px"
+                android:title="@string/Impostazioni"
+                app:showAsAction="never" />
+
+            <item android:id="@+id/language"
+                android:icon="@drawable/ic_baseline_language_24px"
+                android:title="@string/Lingua"
+                app:showAsAction="never" />
+
+
+            <item android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_arrow_back_24px"
+                android:hint="@String/Logout"
+                android:title="Logout"
+                app:showAsAction="never" />
+
+        </menu>
+
+
+    </item>
+    
+    </menu>

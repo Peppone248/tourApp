@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Dealer.AddCouponFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:backgroundTint="#37F3EDED">
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/Button.Outlined"
+            android:layout_width="328dp"
+            android:layout_height="51dp"
+            android:elevation="5dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="285dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/createCoupon"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/genCodButt"
+            style="@style/Button.Outlined"
+            android:layout_width="48dp"
+            android:layout_height="41dp"
+            android:layout_alignTop="@+id/couponCode"
+            android:elevation="5dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/couponCode"
+            android:drawableBottom="@drawable/ic_24px"
+            android:padding="5dp"/>
+
+        <EditText
+            android:id="@+id/couponName"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:hint="@string/couponName"
+            android:textCursorDrawable="@null"
+            app:backgroundTint="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/descriptionCoupon"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="130dp"
+            android:gravity="center"
+            android:hint="@string/CouponDescription" />
+
+
+        <EditText
+            android:id="@+id/couponCode"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:hint="@string/couponCode"
+            android:textCursorDrawable="@null"
+            app:backgroundTint="@color/colorPrimaryDark" />
+
+        <SeekBar
+            android:id="@+id/percentCoupon"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_below="@+id/percentView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="26dp"
+            android:max="100"
+            android:progressTint="@color/colorPrimaryDark"
+            android:thumbTint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/couponCode"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/insertPercentage"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/percentView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="260dp"
+            android:gravity="center"
+            android:text="0%"
+            android:textSize="30sp" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

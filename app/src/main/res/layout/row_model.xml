@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="5dp"
+    xmlns:card_view="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="235dp"
+        android:layout_height="165dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/teacherImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:padding="5dp"
+            android:src="@drawable/placeholder"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/nameImage" />
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/Date"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minLines="2"
+                android:padding="5dp"
+                android:text="@string/Description"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

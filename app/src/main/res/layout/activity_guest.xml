@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="699dp"
+        android:drawableStart="@drawable/ic_refresh_black_24dp"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:onClick="onRefreshButton"
+        android:paddingStart="14dip"
+        android:paddingEnd="26dip"
+        app:icon="@drawable/ic_refresh_black_24dp"
+        app:iconGravity="textStart" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Explore">
+
+        <com.google.android.gms.maps.MapView
+            android:id="@+id/guest_list_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

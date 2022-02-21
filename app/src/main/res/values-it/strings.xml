@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tour App</string>
+
+    <string name="google_map_api_key">AIzaSyBl1-0FKzbITGbU14zZOMQan-2W4vjfoc4</string>
+
+    <string name="Welcome">Benvenuto</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Registrati">Registrati</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Registra">Registra</string>
+    <string name="Nome">Nome</string>
+    <string name="NomeCommerciante">Nome Commericante</string>
+    <string name="Cognome">Cognome</string>
+    <string name="city">Città</string>
+    <string name="ForgotPsw">Password dimenticata?</string>
+    <string name="DeleteAccount">Elimina Account</string>
+    <string name="Wmessage">Benvenuto nella tua area privata</string>
+    <string name="Address">Indirizzo</string>
+    <string name="ImDealer">Sono un venditore</string>
+    <string name="Number">Numero di telefono</string>
+    <string name="Profilo">Profilo</string>
+    <string name="Impostazioni">Impostazioni</string>
+    <string name="Mappa">Mappa</string>
+    <string name="Esplora">Esplora</string>
+    <string name="Coupon">Coupon</string>
+    <string name="IMieiDiari">Diario</string>
+    <string name="NonRegistrato">Non sei ancora registrato?</string>
+    <string name="PassDimenticata">Password dimenticata?</string>
+    <string name="confPsw">Conferma Password</string>
+    <string name="myProfile">Il mio profilo</string>
+    <string name="regAccount">Account registrato con successo</string>
+    <string name="uploadSucc">Caricamento completato con successo!</string>
+    <string name="delAccount">Account eliminato con successo</string>
+    <string name="itemTitle">Il Mio Diario</string>
+    <string name="enterDetails">Inserisci Dettagli</string>
+    <string name="nameImage">Nome immagine</string>
+    <string name="Description">Descrizione</string>
+    <string name="chsImage">Seleziona immagine</string>
+    <string name="Upload">Carica</string>
+    <string name="Date">Data</string>
+    <string name="allView">Le mie immagini</string>
+    <string name="CouponDescription">Descrizione Coupon</string>
+    <string name="addImage">Aggiungi una nuova immagine</string>
+    <string name="checkMail">Controlla la tua posta elettronica per resettare la password</string>
+    <string name="resetDescription">Per ripristinare la password, \n inserisci qui l\'email di registrazione</string>
+    <string name="updateMail">Modifica Email</string>
+    <string name="updateName">Modifica Nome</string>
+    <string name="updatePhone">Modifica Telefono</string>
+    <string name="updateAddress">Modifica Indirizzo</string>
+    <string name="chgName">Cambia il tuo nome</string>
+    <string name="chgPhone">Cambia numero di telefono</string>
+    <string name="chgAddress">Cambia Indirizzo</string>
+    <string name="inputHere">Inserisci qui</string>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="title_registration">Registrati alla nostra applicazione</string>
+    <string name="addCoupon">Aggiungi Coupon</string>
+    <string name="listCoupon">Lista Coupon</string>
+    <string name="guestMode">Modalità Ospite</string>
+    <string name="rememberMe">Ricordami</string>
+    <string name="couponName">Nome coupon</string>
+    <string name="couponCode">Codice coupon</string>
+    <string name="noCategory">Scegli una categoria</string>
+    <plurals name="addCouponMsg">
+        <item quantity="zero">Zero coupon sono stati aggiunti</item>
+        <item quantity="one">Un coupon è stato aggiunto con successo!</item>
+        <item quantity="two">Due coupon sono stati aggiunti con successo!</item>
+        <item quantity="few">Alcuni coupon sono stati aggiunti con successo!</item>
+    </plurals>
+    <string name="percentage">Percentuale di sconto</string>
+    <string name="msgCouponAlertUser">Aggiungi un coupon alla tua lista</string>
+    <string name="msgPermission">Questa applicazione richiede che il GPS funzioni correttamente, vuoi abilitarlo?</string>
+    <string name="msgPermissionStorage">Devi concedere l\'autorizzazione per leggere l\'archiviazione!</string>
+    <string name="msgSelectedCpAlert">Questo è il coupon che hai selezionato:</string>
+    <string name="msgGuestMode">Ciao, per avere accesso a tutte le funzionalità, procedi con la registrazione.</string>
+    <string name="stepCounter">Passi</string>
+    <string name="createCoupon">Crea coupon</string>
+    <plurals name="noCoupon">
+        <item quantity="one">Un coupon selezionabile</item>
+        <item quantity="two">Due coupons selezionabili</item>
+        <item quantity="few">Alcuni coupons sono selezionabili</item>
+        <item quantity="other">Zero coupon selezionabili</item>
+    </plurals>
+    <string name="activatedCp">Attiva coupon</string>
+    <string name="couponAlready">Questo coupon è presente nella tua lista</string>
+    <string name="usedCoupon">Sei sicuro di voler utilizzare questo coupon? Non potrai più usufruirne in futuro</string>
+    <string name="insertPercentage">Selezionare la percentuale di sconto</string>
+    <string name="selectOption">Scegli opzione</string>
+    <string name="selectCategory">Seleziona la categoria della tua attività</string>
+    <string name="newMailInput">Digita la tua nuova email</string>
+    <string name="deleteConfirm">Il tuo account sarà cancellato permanentemente. Sei sicuro?</string>
+
+    <!-- TRADUZIONI ERROR MESSAGE -->
+    <string name="updateMailError">Impossibile aggiornare l\'email, riprova.</string>
+    <string name="errorMsgField">Per favore, completa il campo</string>
+    <string name="phoneNumbError">Numero di telefono non valido</string>
+    <string name="errorMsgCpName">Il nome del coupon non può superare i 15 caratteri</string>
+    <string name="errorMsgCpCode">Il nome del coupon non può superare i 10 caratteri</string>
+    <string name="errorMsgCpPercent">La percentuale di sconto deve essere superiore al 0%</string>
+    <string name="errorMsgDifferentPsw">Le password non corrispondono</string>
+    <string name="errorMsgRegistration">Qualcosa è andato storto, per favore riprova</string>
+    <string name="errorMsgCpDescription">La descrizione del coupon non può superare i 20 caratteri</string>
+    <string name="emailInvalid">Questa email è già registrata</string>
+    <string name="pswWeak">La password deve contenere almeno una maiuscola, un numero ed essere lunga almeno 4 caratteri.</string>
+    <string name="noSensorFound">Nessun sensore trovato</string>
+    <string name="noSelected">Non hai selezionato alcun file!</string>
+    <string name="correctMail">Inserire la mail corretta</string>
+    <string name="nonConnesso">Nessuna connessione ad internet rilevata</string>
+    <string name="errorMsgDelAccount">Rimozione fallita</string>
+    <string name="failLogin">Dati errati, per favore riprova</string>
+
+    <!-- TRADUZIONI BASIC WORDS -->
+    <string name="Refresh">Ricarica</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+    <string name="yes">Sì</string>
+    <string name="delete">Eliminato</string>
+    <string name="remove">Rimuovi</string>
+    <string name="generate">Genera</string>
+    <string name="save">Salva</string>
+    <string name="up">Aggiornato</string>
+    <string name="loading">Caricamento...</string>
+    <string name="error">Errore</string>
+    <string name="cancel">Annulla</string>
+    <string name="open">Apri</string>
+    <string name="selected">Selezionato</string>
+    <string name="chooseLng">Scegli la lingua:</string>
+    <string name="Lingua">Lingua</string>
+    <string name="ChangePass">Reset</string>
+    <string name="ChangeLang">Cambia Lingua</string>
+    <string name="sendEmail">Invia</string>
+    <string name="category">Categoria</string>
+
+
+    <!-- TRADUZIONI TABITEM EXPLORE -->
+    <string name="all">Tutti</string>
+    <string name="hotel">Hotel</string>
+    <string name="bAndb">Bed and Breakfast</string>
+    <string name="pizza">Pizzeria</string>
+    <string name="risto">Ristorante</string>
+    <string name="iceCream">Gelateria</string>
+    <string name="church">Chiesa</string>
+    <string name="shore">Lido</string>
+    <string name="museum">Museo</string>
+    <string name="fun">Svago</string>
+    <string name="disco">Discoteca</string>
+
+    <string-array name="category_names">
+        <item>@string/hotel</item>
+        <item>@string/bAndb</item>
+        <item>@string/pizza</item>
+        <item>@string/risto</item>
+        <item>@string/iceCream</item>
+        <item>@string/church</item>
+        <item>@string/shore</item>
+        <item>@string/museum</item>
+        <item>@string/fun</item>
+        <item>@string/disco</item>
+    </string-array>
+
+    <!-- TRADUZIONI SETTINGS -->
+    <string name="generals_header">Generale</string>
+    <string name="appInfo">Info App</string>
+    <string name="faq">FAQ</string>
+    <string name="weAre">Team di 4 sviluppatori indipendenti, che hanno realizzato l\'applicazione Android come progetto universitario.</string>
+    <string name="about">Informazioni</string>
+    <string name="Version">Versione</string>
+    <string name="key_send_feedback">Invia un feedback</string>
+    <string name="queries">Se hai qualche suggerimento per l\'app, inviacelo tramite mail!</string>
+    <string name="choose_email_client">Scegli un client mail</string>
+    <string name="faq_desc">Hai delle domande? Saremo felici di aiutarti!</string>
+    <string name="app_settings">Impostazioni applicazione</string>
+    <string name="app_settings_desc">Gestisci notifiche, permessi ed altre impostazioni dell\'app</string>
+
+    <!-- TRADUZIONI FAQ -->
+    <string name="question1">Come posso usufruire dei servizi di tourApp?</string>
+    <string name="question2">Chi può usufruire di tourApp?</string>
+    <string name="question3">Ci sono servizi a pagamento?</string>
+    <string name="question4">Cosa si intende per "I miei Coupon"?</string>
+
+    <string name="answer1">Con questa applicazione, puoi trovare qualsiasi tipo di attività o luogo culturale presente nei pressi della tua posizione
+                           Inoltre puoi documentare ogni momento del tuo viaggio con delle foto, salvate nel tuo diario personale.</string>
+    <string name="answer2">tourApp è accessibile a chiunque desideri avere una sorta di guida turistica, in modo che possano scoprire e raggiungere nuovi luoghi nel corso del viaggio.
+                           Anche chiunque abbia un\'attività e desideri usufruire dei servizi della nostra app.</string>
+    <string name="answer3">No, l\'applicazione è totalmente gratuita, è possibile scaricarla dal play store e non prevede transazioni interne.</string>
+    <string name="answer4">La sezione "i miei coupon" consente di aggiungere coupon creati dal commerciante per l\'utilizzo di essi nella sua attività.</string>
+
+</resources>
